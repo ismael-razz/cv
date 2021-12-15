@@ -1,0 +1,22 @@
+h1{
+  font-size: 40px;
+  background-color: pink;
+  color: white;
+}
+
+.profilepic{
+  height: 250px;
+  width: 300px;
+}
+
+body{
+  background-color: #EAF6F6;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
