@@ -1,0 +1,46 @@
+body{
+  background: #FFCCD2;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+.container{
+  background-color: #8843F2;
+  color: #fff;
+  max-width: 100%;
+  padding: 250px;
+}
+
+.welcome{
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.myname{
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.nav{
+background-color: #8843F2;
+}
+.nav-item{
+  text-align: center;
+}
+
+
+a{
+  color: #fff;
+}
+
+
+.about-summary{
+  text-align: center;
+}
+
+.contact-me{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}

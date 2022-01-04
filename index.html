@@ -1,31 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="C:\Users\irazz\Documents\Work\inputs.html">
-    <link rel="stylesheet" href="C:\Users\irazz\Documents\Work\css\styles.css">
-  </head>
-  <body>
-<h1>Berriez Inc.</h1>
-<img class="profilepic" src="C:\Users\irazz\Documents\Work\IMG_5080.jpg" alt="Thas me">
-<h2>WELCOME</h2>
-<p>Izzy here. Web and Content Designer, Creative Writer, Editor.</p>
+<head>
+  <meta charset="utf-8">
+  <title>Izzy's Room</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Source+Sans+Pro:400,700,900i&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
 
-<h3>My Contact Details</h3>
-<p>My Address</p>
-<p>myemail@gmail.com</p>
-<form action="mailto:artberriez@gmail.com" method="post" enctype="text/plain">
-  <label>Your Name</label>
-  <input type="text" name="yourName" value=""><br>
-  <label>Email</label>
-  <input type="email" name="yourEmail" value=""><br>
-  <label>Your Message:</label> <br>
-  <textarea name="yourMessage" rows="10" cols="40"></textarea>
-  <input type="submit" name="">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-</form>
-  </body>
+</head>
+
+<body>
+  <!-- Introduction -->
+  <div class="container">
+    <h1 class="welcome">Welcome</h1>
+    <h2 class="myname">I'm Izzy</h2>
+    <p class="myname">A web designer</p>
+  </div>
+
+  <!-- Navbar -->
+  <ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Works</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Content</a>
+    </li>
+
+  </ul>
+
+  <!-- About -->
+  <section id="about">
+
+    <div class="about-summary">
+      <br><br><br>
+      <h3>What's good?</h3>
+      <p>Artist in the making.</p>
+      <p>Catch me in New York. </p>
+    </div>
+
+  </section>
+
+  <!-- Professional Work -->
+  <section id="work">
+<br><br>
+
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+
+    <form class="contact-me" action="index.html" method="post">
+      <div class="form-input">
+        <label for="name">Your Name</label>
+        <input type="text" name="field1" data-validate="required,Generic" placeholder="Your Name">
+      </div>
+      <div class="form-input">
+        <label for="email">Your Email</label>
+        <input type="text" name="email" data-validate="required,Generic" placeholder="Your Email">
+      </div>
+      <div class="form-input">
+        <label for="message">Your message</label>
+        <textarea name="message" rows="5" cols="30" data-validate="required,Generic" placeholder="Your message" required ></textarea>
+      </div>
+      <button type="button" class="btn btn-primary" name="submit">Submit</button>
+    </form>
+  </section>
+  <br><br><br>
+
+  <!-- Footer -->
+  <footer>Copyright Ismael 2021</footer>
+
+  <link rel="shortcut icon" href=".ico">
+</body>
+
 </html>
