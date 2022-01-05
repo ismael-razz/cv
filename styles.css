@@ -1,13 +1,13 @@
 body{
   background: #FFCCD2;
-  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Lato', sans-serif;
 }
 
 .container{
   background-color: #8843F2;
   color: #fff;
   max-width: 100%;
-  padding: 250px;
+  padding: 270px;
 }
 
 .welcome{
@@ -38,7 +38,19 @@ a{
 }
 
 .contact-me{
+  background-color: #8843F2;
+  color: #fff;
   text-align: center;
+  padding: 30px;
+  position: relative;
+}
+
+.form-input{
+  padding: 10px;
+}
+
+.contact-field{
+  border: 5px solid #fff;
 }
 
 footer{
